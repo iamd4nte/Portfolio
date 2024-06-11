@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={6} />
+      <pointLight intensity={isMobile ? 9 : 6} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.6 : 0.75}
@@ -66,6 +66,7 @@ const ComputersCanvas = () => {
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      className="canvas" 
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
