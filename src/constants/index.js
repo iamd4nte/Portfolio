@@ -96,22 +96,22 @@ const technologies = [
     name: "Tableau",
     icon: tableau,
   },
-  // {
-  //   name: "Jenkins",
-  //   icon: jenkins,
-  // },
-  // {
-  //   name: "Docker",
-  //   icon: docker,
-  // },
-  // {
-  //   name: "K8",
-  //   icon: k8,
-  // },
-  // {
-  //   name: "Spring",
-  //   icon: spring,
-  // },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "K8",
+    icon: k8,
+  },
+  {
+    name: "Spring",
+    icon: spring,
+  },
   // {
   //   name: "Flask",
   //   icon: flask,
