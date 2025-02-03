@@ -22,7 +22,7 @@ import elastic from "./tech/elastic.png";
 import flask from "./tech/flask.webp";
 import jenkins from "./tech/jenkins.png";
 import k8 from "./tech/k8.png";
-import pandas from "./tech/pandas.png";
+import airflow from "./tech/airflow.png";
 import python from "./tech/python.png";
 import spring from "./tech/spring.png";
 import sql from "./tech/sql.png";
@@ -32,6 +32,7 @@ import tableau from "./tech/tableau.png";
 
 import infintus from "./company/infintus.png";
 import sbu from "./company/sbu.png";
+import jetro from "./company/jetro.png";
 
 
 import sustainability from "./sustainability.png";
@@ -56,7 +57,7 @@ export {
   flask,
   jenkins,
   k8,
-  pandas,
+  airflow,
   python,
   spring,
   sql,
@@ -68,5 +69,6 @@ export {
   ac,
   linkedin,
   git,
-  instagram
+  instagram,
+  jetro
 };

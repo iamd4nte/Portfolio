@@ -54,7 +54,7 @@ const Hero = () => {
 
           <div className="flex lg:flex-row mt-6">   
             <a
-                href="https://drive.google.com/file/d/1wO8tPOoyYP-jM0zWLCqusgtw2-wVYSrT/view"
+                href="https://drive.google.com/file/d/1p9I3a65DxLjJVDKEvNXiUNM85hR430mA/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"

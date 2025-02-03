@@ -12,11 +12,12 @@ import {
   flask,
   jenkins,
   k8,
-  pandas,
+  airflow,
   python,
   spring,
   sql,
   tableau,
+  jetro,
   sbu,
   infintus,
   mh,
@@ -77,8 +78,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Pandas",
-    icon: pandas,
+    name: "Airflow",
+    icon: airflow,
   },
   {
     name: "Elastic",
@@ -109,8 +110,8 @@ const technologies = [
     icon: k8,
   },
   {
-    name: "Spring",
-    icon: spring,
+    name: "Flask",
+    icon: flask,
   },
   // {
   //   name: "Flask",
@@ -119,19 +120,18 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Data Scientist",
+    company_name: "Jetro - Restaurant Depot",
+    icon: jetro,
+    iconBg: "#FFFFFF",
+    date: "Jul 2024 - Present",
+    points: [
+      "Developed an ETL pipeline to generate RFM data for customer churn prediction and deployed a Dash app for churn analysis and visualization.",
+      "Built a system to compare store spend with market benchmarks, analyzed performance across multiple baselines, and automated monthly regional exception reports using Airflow cron jobs.",
+      "Built a Dash app for vendor comparison across all commodities, containerized with Docker for efficient deployment."
+    ],
+  },
   {
     title: "Graduate Research Assistant",
     company_name: "Stony Brook University",
@@ -139,32 +139,34 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Jan 2023 - Dec 2023",
     points: [
-      "Contributed to a data center sustainability cost modeling project, collecting and analyzing job data to estimate carbon footprints based on power usage to track server CPU, memory, and disk I/O power consumption.",
+      "Collaborated with Prof. Anshul Gandhi at the PACE Lab to create a secure sustainability accounting framework, tracking the environmental impact (carbon footprint) of individual job processes.",
+      "Collected and analyzing job data (CPU, disk I/O, memory usage) across various benchmarks to estimate total power consumption.",
       "Architected a data processing pipeline incorporating data integration and validation, and conducted exploratory data analysis (EDA) utilizing tools such as Pandas, Seaborn, Excel, and Tableau for data visualization.",
       "Developed various ML and deep learning models for estimating power consumption."
     ],
   },
   {
-    title: "Data Scientist",
+    title: "Data Engineer",
     company_name: "Infintus Innovations Pvt. Ltd.",
     icon: infintus,
     iconBg: "#FFFFFF",
-    date: "Jun 2019 - May 2020",
+    date: "Jun 2019 - Aug 2020",
     points: [
-      "Built ETL workflows in Apache Nifi and deployed NER-driven risk analysis, effectively tagging sensitive information in unstructured content. This implementation led to a notable 25% improvement in compliance and privacy measures, leveraging centralized analytics through Kibana for risk monitoring.",
-      "Developed an insurance policy recommender system with collaborative filtering techniques (cosine similarity, KNN, Bayesian inference) for personalized recommendations, leading to a 12% sales boost.",
+      "Created ETL workflows in Apache NiFi and utilized Kafka for real-time data streaming in deploying NER-driven risk analysis, effectively tagging sensitive information within unstructured content, resulting in a significant 25% improvement in compliance and privacy measures.",
+      "Built an insurance policy recommender system using hybrid filtering techniques for personalized recommendations, leading to a 12% sales boost.",
       "Created a Tableau dashboard to analyze sales and performance across insurance providers, enabling data-driven decision-making for optimizing sales strategies and identifying growth opportunities.",
+      "Leveraged GraphQL to develop flexible query endpoints for accessing risk analysis data."
     ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Data Engineer Intern",
     company_name: "Infintus Innovations Pvt. Ltd.",
     icon: infintus,
     iconBg: "#FFFFFF",
     date: "Jan 2019 - Mar 2019",
     points: [
-      "Developed stored procedures and created complex views using Joins for robust and fast retrieval of data in SQL Server resulting in 10% performance improvement.",
-      "Implemented an automated text classification model for service ticketing, leveraging NLP techniques and tools such as Apache OpenNLP, Spark NLP, and GloVe for feature engineering, reducing manual effort by 30%.",
+      "Developed stored procedures and implemented indexing strategies in SQL Server, resulting in a 10% performance improvement.",
+      "Modeled a text classification pipeline for automated service ticketing to predict root cause, utilizing BERT for language representation, PCA, and Spark NLP, leading to a 30% decrease in manual effort.",
     ],
   },
 ];
