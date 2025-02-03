@@ -66,3 +66,12 @@ npm run dev or yarn run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+
+**Deploying the Project**
+
+```bash
+npm run deploy
+```
+
+This command will build the project and deploy it to GitHub Pages. You can view the deployed project at [https://iamd4nte.github.io/Portfolio/](https://iamd4nte.github.io/Portfolio/).
